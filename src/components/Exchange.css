@@ -1,0 +1,33 @@
+.exchange {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.exchange h2 {
+    margin-bottom: 10px;
+}
+
+.exchange p {
+    font-size: 18px;
+    line-height: 0.5;
+    letter-spacing: 1;
+    margin: 0;
+}
+
+.exchange > button {
+    background-color: #0a6eff;
+    border: none;
+    border-radius: 8px;
+    padding: 26px 65px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0.5;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.exchange > button:hover {
+    opacity: 0.9;
+}

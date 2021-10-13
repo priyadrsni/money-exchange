@@ -1,0 +1,33 @@
+
+body {
+  background-color: #ECF6FD;
+  font-family:  'IBM Plex Sans', Arial, Helvetica, sans-serif;
+}
+
+.App {
+  width: 100%;
+  max-width: 700px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.App > h1 {
+  margin: 0;
+  margin-bottom: 40px;
+  color: #0C0F25;
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 15px;
+  color: #453A60;
+  margin: 0;
+  margin-bottom: 15px;
+  font-weight: 300;
+}

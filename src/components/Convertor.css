@@ -1,0 +1,86 @@
+.convertor {
+    width: 48%
+}
+
+.currency-type-cont {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0;
+    border-bottom: 1px solid #9EA2B8;
+    padding: 10px 0;
+}
+
+.currency-type-cont > .currency-type  {
+    display: inline-block;
+    border: 0;
+    width: 90%;
+    margin: 0;
+    color: #453A60;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.currency-type-cont > .currency-type:focus {
+    outline: none;
+}
+
+.arrow {
+    display: inline-block;
+    cursor: pointer;
+    width: 6px;
+    height: 6px;
+    border: 3px solid #453A60;
+    border-radius: 2px;
+    border-top: 0;
+    border-right: 0;
+    transform: rotate(-45deg);
+    vertical-align: bottom;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #0C0F25;
+    margin-bottom: 40px;
+    border: 0;
+    border-bottom: 1px solid #9EA2B8;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    border-bottom: 2px solid #4368D4;
+}
+
+.country-list {
+    width: 90%;
+    margin: 15px auto;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 2px #eee;
+    border: 1px solid #ccc;
+    max-height: 210px;
+    overflow: scroll;
+}
+
+.country-list > li {
+    padding: 15px 15px;
+    list-style: none;
+}
+
+.country-list > li:hover {
+    background-color: #B9DCF8;
+    cursor: pointer;
+}
