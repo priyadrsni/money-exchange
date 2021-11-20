@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Exchange.css";
 import tick from "../check.png";
+
 const Exchange = (props) => {
     let base = document.getElementById("base");
     let target = document.getElementById("target");
@@ -8,7 +9,7 @@ const Exchange = (props) => {
 
     const createUrl = () => {
         let url = `https://v6.exchangerate-api.com/v6/${props.apikey}/pair/${base.getAttribute('data-code')}/${target.getAttribute('data-code')}/${amount.value.replace(/[.,\s]/g, '')}`;
-        props.calculateExchangeHandler(url)
+        props.calculateExchangeHandler(url);
     }
 
     return (
