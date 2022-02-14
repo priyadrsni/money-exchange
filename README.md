@@ -14,7 +14,7 @@ Note: The API has a limited number of access in free version. It may or may not 
 
 ## How to install and run the project?
 
-Initially clone this repository. You may need node and npm to run the project.
+Initially clone this repository. You need node and npm to run the project.
 
 To install packages:
 `npm install`
